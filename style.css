@@ -1,0 +1,237 @@
+*{
+    margin: 0%;
+    padding:0%;
+}
+body{
+    background-color:black;
+    position: relative;
+}
+
+.top-nav{
+   
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding-top: 10px;
+}
+.top-top{
+    i{
+        color: white;
+        font-size: 20px;
+        cursor: pointer;
+    }
+    display: flex;
+    align-items: center;
+    gap: 19px;
+    padding-left:24px;
+    padding-top: 5px;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.find{
+    width: 500px;
+    height: 40px;
+    background-color: black;
+    border: 1px solid grey;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding-left: 20px;
+    font-size: 15px;
+    color: white;
+}
+.search-icon{
+    width: 550px;
+    height: 40px;
+    background-color: rgb(53, 53, 53);
+    border-radius: 20px;
+    border: 1px solid grey;
+    i{
+        padding-left: 10px;
+        color: white;
+        cursor: pointer;
+    }
+}
+.mic{
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    background-color: rgb(53, 53, 53);
+    text-align: center;
+    align-content: center;
+    cursor: pointer;
+    i{
+        color: white;
+        font-size: 22px;
+        cursor: pointer;
+    }
+}
+.top-right{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-right:10px ;
+    i{
+        color: white;
+         font-size: 30px;
+
+    }
+}
+.create{
+    display: block;
+    height: 40px;
+    width: 100px;
+    border-radius: 20px;
+    text-align: center;
+    align-content: center;
+    background-color: rgb(53, 53, 53);
+    i{
+        color: white;
+        padding-right: 5px;
+        font-size: 20px;
+    }
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+}
+.account{
+    height: 40px;
+    width: 40px;
+    background-color: rgb(3, 68, 3);
+    border-radius: 50%;
+    text-align: center;
+    align-content: center;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+}
+.nav-console{
+    padding-top: 20px;
+    display: flex;
+    justify-content: start;
+    justify-self: end;
+    gap: 20px;
+    width: 82vw;
+}
+.console{
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 0.5% 1%;
+    border-radius: 10px;
+    background-color: rgb(53, 53, 53);
+}
+.all{
+    background-color: white;
+    color: black;
+}
+.side-navbar{
+    display: flex;
+    flex-direction: column;
+    width: 17vw;
+    height: 95vh;
+    align-items: flex-start;
+    position: absolute;
+    top:8%;
+}
+.home{
+    display: block;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    height: 40px;
+    align-content: center;
+    width: 80%;
+    color: white;
+    text-decoration: none;
+    padding-left: 10px;
+    margin-left: 15px;
+    font-size: 15px;
+    i{
+        padding-right: 25px
+    };
+}
+.home:hover{
+    background-color: rgb(53, 53, 53);
+}
+.line {
+  border: none;            
+  border-top: 1px solid #474747;
+  margin: 12px;  
+  width: 90%;          
+}
+.sub{
+    font-size: 20px;
+    i{
+        font-size: 15px;
+        padding-left: 10px;
+    }
+}
+.channel-img{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.channel{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+
+}
+span{
+    margin-right:15px;
+}
+.main-cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    justify-self: end;
+   gap: 40px;
+    height: 100vh;
+    width: 83vw;
+    margin-top: 10px;
+}
+.cont1{
+    display: flex;
+    margin-top: 20px;
+    a{
+        text-decoration: none;
+    }
+
+}
+.first{
+   
+    margin-left: 10px;
+    border-radius: 20px;
+}
+strong{
+    color: white;
+}
+.desc{
+    display: flex;
+    align-items: start;
+    gap: 10px;
+    padding-top: 5px;
+    padding-left: 5px;
+
+}
+p{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: gray;
+    i{
+        font-size: 10px;
+    }
+}
+.three-dot{
+    i{
+        color: white;
+        font-size: 20px;
+        cursor: pointer;
+    }
+}
